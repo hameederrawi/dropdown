@@ -14,6 +14,8 @@ button {
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
+    display: inline-block;
+
 }
 
 .dropdownMenu{
@@ -56,5 +58,65 @@ button {
 }
 
 .dropdown:hover .dropdownMenu {
+    transform: translateY(0);
+}
+
+.dropdown2 {
+    width: 150px;
+    position: fixed;
+    left: 150px;
+    top: 0;
+}
+
+.dropdown2:hover button {
+    background-color: #018ec5;
+}
+
+.dropdown2:hover .dropdownMenu {
+    transform: translateY(0);
+}
+
+.dropdown3 {
+    width: 150px;
+    position: fixed;
+    left: 300px;
+    top: 0;
+}
+
+.dropdown3:hover button {
+    background-color: #018ec5;
+}
+
+.dropdown3:hover .dropdownMenu {
+    transform: translateY(0);
+}
+
+.dropdown4 {
+    width: 150px;
+    position: fixed;
+    left: 450px;
+    top: 0;
+}
+
+.dropdown4:hover button {
+    background-color: #018ec5;
+}
+
+.dropdown4:hover .dropdownMenu {
+    transform: translateY(0);
+}
+
+.dropdown5 {
+    width: 150px;
+    position: fixed;
+    left: 600px;
+    top: 0;
+}
+
+.dropdown5:hover button {
+    background-color: #018ec5;
+}
+
+.dropdown5:hover .dropdownMenu {
     transform: translateY(0);
 }
