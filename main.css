@@ -5,6 +5,13 @@
     right: 0;
     background-color: #4a4a4f;
 }
+.logo {
+    float: right;
+}
+img {
+    width: 25px;
+    height: 25px;
+}
 
 button {
     border: none;
